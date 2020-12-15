@@ -1,0 +1,335 @@
+body{
+    background-color:#f9f9f9;
+}
+h1, a{
+    color: #48bf72;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    font-size: 26pt;
+}
+a{
+    font-size: 16px;
+    font-weight: 700;
+}
+form{
+    width: 700px;
+    height: auto;
+    margin: 50px auto;
+    font-family: 'Lato', sans-serif;
+    color: #a6a5a5;
+    font-size: 16pt;
+}
+input{
+    height: 50px;
+    width: 285px;
+    border: #3c4955 1px solid;
+    border-radius: 0 3px 3px 0;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+textarea{
+    height: 228px;
+    width: 650px;
+    border: #3c4955 1px solid;
+    border-radius: 0 3px 3px 0;
+    padding: 16px 24px;
+    box-sizing: border-box;
+    background-color: #f1f1f1;
+}
+button{
+    background-color: #48bf72;
+    height: 50px;
+    width: 700px;
+    border: none;
+    border-radius: 3px;
+    padding: 16px 24px;
+    margin: 30px 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    letter-spacing: 2.2px;
+    font-size: 14pt;
+    color: #fff;
+}
+.name{
+    margin-right: 30px;
+}
+.email{
+    margin: 0;
+}
+.inputs{
+    margin-bottom: 30px;
+}
+.icon-box{
+    position: relative;
+    height: 50px;
+    width: 50px;
+    background-color: #3c4955;
+    border-radius:  3px 0 0 3px;
+    
+}
+img{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.img-arrow{
+    position: absolute;
+    top: 50%;
+    left: 53px;
+    transform: translate(-50%, -50%);
+}
+
+.flex{
+    display: flex;
+}
+.textarea{
+    height: 228px;
+    background-color: #3c4955;
+    border-radius: 3px;
+}
+
+/* Table styles */
+table, th, td{
+    border: #3c4955 solid 1px;
+}
+table{
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.whiteOnGreen{
+    background-color: green;
+    color: white;
+}
+.blueText{
+    color: blue;
+}
+/* Countries flags */
+.greatBritain:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Великобритания.png);
+    background-size: cover;
+}
+.france:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Франция.png);
+    background-size: cover;
+    position:;
+}
+.russia:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Россия.png);
+    background-size: cover;
+}
+.belgium:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Бельгия.png);
+    background-size: cover;
+}
+.serbia:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Сербия.png);
+    background-size: cover;
+}
+.japan:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Япония.png);
+    background-size: cover;
+}
+.montenegro:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Черногория.png);
+    background-size: cover;
+}
+.italy:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Италия.png);
+    background-size: cover;
+}
+.romania:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Румыния.png);
+    background-size: cover;
+}
+.portugal:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Португалия.png);
+    background-size: cover;
+}
+.usa:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/США.png);
+    background-size: cover;
+}
+.greece:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Греция.png);
+    background-size: cover;
+}
+.germania:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Германия.png);
+    background-size: cover;
+}
+.austro-hungary:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Австро-Венгрия.png);
+    background-size: cover;
+}
+.turkey:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Турция.png);
+    background-size: cover;
+}
+.bulgaria:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Болгария.png);
+    background-size: cover;
+}
+.sweden:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Швеция.png);
+    background-size: cover;
+}
+.switzerland:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Швейцария.png);
+    background-size: cover;
+}
+.denmark:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Дания.png);
+    background-size: cover;
+}
+.netherlands:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Нидерланды.png);
+    background-size: cover;
+}
+.spain:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Испания.png);
+    background-size: cover;
+}
+.argentina:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Аргентина.png);
+    background-size: cover;
+}
+.paraguay:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Парагвай.png);
+    background-size: cover;
+}
+.norway:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Норвегия.png);
+    background-size: cover;
+}
+.albania:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Албания.png);
+    background-size: cover;
+}
+.liechtenstein:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Лихтенштейн.png);
+    background-size: cover;
+}
+.luxenburg:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Люксенбург.png);
+    background-size: cover;
+}
+.mexico:hover:after{
+    content:'';
+    display: block;
+    width: 44px;
+    height: 26px;
+    background: url(images/Мексика.png);
+    background-size: cover;
+}
