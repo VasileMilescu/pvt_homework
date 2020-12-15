@@ -123,7 +123,6 @@ table{
     height: 26px;
     background: url(images/Франция.png);
     background-size: cover;
-    position:;
 }
 .russia:hover:after{
     content:'';
