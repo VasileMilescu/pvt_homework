@@ -15,7 +15,7 @@
     height: auto;
     width: 1140px;
 }
-/* Section one (hero) */
+/* Section one - hero */
 #hero{
     background-image:url(images/computer.png);
     background-size: cover;
@@ -86,7 +86,7 @@ button{
     padding: 15px 21px;
     margin-top: 50px;
 }
-/* Section two (peojects) */
+/* Section two - peojects */
 #projects{
     background-color: #f9f9f9;
     height: 1050px;
@@ -133,7 +133,7 @@ button{
 .firstImage{
     margin-bottom: 40px;
 }
-/* Section three (wedesigner) */
+/* Section three - wedesigner */
 #webdesigner{
     background-image:url(images/men-computer.png);
     background-size: cover;
