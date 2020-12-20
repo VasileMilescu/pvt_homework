@@ -133,6 +133,28 @@ button{
 .firstImage{
     margin-bottom: 40px;
 }
+.imgText{
+    position: relative;
+    overflow:auto;
+    text-align: center;
+}
+#projects h2{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    text-transform:none;
+    text-align: center;
+}
+.appTitle{
+    position: absolute;
+    top: 50%;
+    left:30px;
+    right: 30px;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+#projects .paragraph{
+    margin-top: 0;
+}
 /* Section three - wedesigner */
 #webdesigner{
     background-image:url(images/men-computer.png);
