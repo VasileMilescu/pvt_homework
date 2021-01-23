@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: #f2f2f2;
+}
+/* Checkboxes */
+.block{
+    padding: 24px 32px;
+    background: linear-gradient(135deg, #ffffff, #eaeaea);
+    width: 400px;
+    height: auto;
+    border: 1px solid #d9d9d9;
+    border-radius: 16px;
+    box-shadow: 0 4px 8px #e0e0e0;
+    margin: 0 auto 24px;
+}
+.title1{
+  font-size: 36px;
+  margin: 24px 0;
+  text-align: center;
+}
+.title2{
+  font-size: 24px;
+  margin-bottom: 24px;
+}
+.container {
+    display: block;
+    position: relative;
+    padding-left: 32px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  .container input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #ffffff;
+    border: 2px solid #ccccd8;
+    border-radius: 4px;
+  }
+  .container:hover input ~ .checkmark {
+    background-color: #eee;
+    border: 2px solid #5e08e9;
+    border-radius: 4px;
+    transition-duration: .3s;
+  }
+  .container input:checked ~ .checkmark {
+    background-color: #5e08e9;
+    border: 2px solid #5e08e9;
+    border-radius: 4px;
+    transition-duration: .3s;
+  }
+  .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  .container input:checked ~ .checkmark:after {
+    display: block;
+  }
+  .container .checkmark:after {
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+/* Radio buttons */
+.radioButton {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #ffffff;
+  border: 2px solid #ccccd8;
+  border-radius: 50%;
+}
+
+.container:hover input ~ .radioButton {
+  background-color: #eee;
+  border: 2px solid #5e08e9;
+  transition-duration: .3s;
+}
+
+.container input:checked ~ .radioButton {
+  background-color: #5e08e9;
+  border: 2px solid #5e08e9;
+  transition-duration: .3s;
+}
+
+.radioButton:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+.container input:checked ~ .radioButton:after {
+  display: block;
+}
+
+.container .radioButton:after {
+  top: 6px;
+  left: 6px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+.column{
+  float: left;
+  margin-right: 80px;
+}
+.paragraph{
+  clear: both;
+}

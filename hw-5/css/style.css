@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.flagOne{
+    width: 200px;
+    height: 130px;
+    margin: 10px;
+    display: inline-block;
+}
+.flagTwo{
+    width: 130px;
+    height: 130px;
+    margin: 10px;
+    display: inline-block;
+}
+.flagOne:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 10px; top: 10px;
+}
+.flagTwo:hover::after {
+    content: attr(data-title);
+    position: absolute;
+    left: 10px; top: 10px;
+}
+.argentina{
+    background: linear-gradient(to bottom, #74acdf 33%, #fff 33%, #fff 67%, #74acdf 67%);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    position: relative;
+}
+.argentinaEmblem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.serbia{
+    background: linear-gradient(to bottom, #c6363c 33%, #0c4076 33%, #0c4076 67%, #fff 67%);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    position: relative;
+}
+.serbianEmblem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.portugal{
+    background: linear-gradient(to right, #006600 40%, #ff0000 40%);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    position: relative;
+}
+.portugueseEmblem{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
+.switzerland{
+    background: linear-gradient(to right, #ff0000, #ff0000);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    position: relative;
+}
+.switzerlandEmblem{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.turkey{
+    background: linear-gradient(to right, #e30a17, #e30a17);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    position: relative;
+}
+.turkeyEmblem{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+}
