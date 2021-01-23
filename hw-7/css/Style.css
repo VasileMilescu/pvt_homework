@@ -81,7 +81,6 @@ body{
     -ms-transform: rotate(45deg);
     transform: rotate(45deg);
   }
-
 /* Radio buttons */
 .radioButton {
   position: absolute;
@@ -93,29 +92,24 @@ body{
   border: 2px solid #ccccd8;
   border-radius: 50%;
 }
-
 .container:hover input ~ .radioButton {
   background-color: #eee;
   border: 2px solid #5e08e9;
   transition-duration: .3s;
 }
-
 .container input:checked ~ .radioButton {
   background-color: #5e08e9;
   border: 2px solid #5e08e9;
   transition-duration: .3s;
 }
-
 .radioButton:after {
   content: "";
   position: absolute;
   display: none;
 }
-
 .container input:checked ~ .radioButton:after {
   display: block;
 }
-
 .container .radioButton:after {
   top: 6px;
   left: 6px;
